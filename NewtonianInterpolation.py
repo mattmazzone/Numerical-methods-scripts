@@ -7,8 +7,8 @@ class Node:
 
 
 # X and Y values
-xVal = [1, 2, 4]
-yVal = [2, -1, 5]
+xVal = [1.0, 2.0, 3.0, 4.0]
+yVal = [-7.5, -4.3, 14.5, 65.1]
 
 nodeList = []
 newNodeList = []

@@ -5,7 +5,7 @@
 
 ## returns a function of type y = a0 + a1x + a2x + ... anx and the vandermonde matrix
 
-function [A, an] = LeastSquareRegression (aLength, xValues, yValues)
+function an = LeastSquareRegression (aLength, xValues, yValues)
   A = [];
   
   ## Creates a matrix
@@ -15,7 +15,6 @@ function [A, an] = LeastSquareRegression (aLength, xValues, yValues)
     endfor
   endfor
   
-  ## Calculates an
   an = ((A'*A)\(A'*yValues));
   
 endfunction
